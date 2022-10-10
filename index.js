@@ -66,7 +66,6 @@ const dice6 =         `
 const playDice = () => {
 
     let player1Result = getDice();
-
     let player2Result = getDice();
 
     switch (player1Result){
