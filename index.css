@@ -1,0 +1,171 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* dice 1 start */
+.dice1 {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 1%;
+    background-color: #f5f0f6;
+  }
+  .circle1 {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%
+  }
+/* dice 1 end */
+  
+/* dice 2 start */
+  .dice2 {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5%;
+    display:flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: #f5f0f6;
+  }
+  
+  
+  .circle2 {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%
+  }
+  
+  .bottom-circle2 {
+    margin-top:auto;
+  }
+/* dice 2 end */
+  
+/* dice 3 start */
+  .dice3{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 1%;
+    display:flex;
+    justify-content: space-between;
+    background-color: #f5f0f6;
+  }
+  
+  .circle3 {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%
+  }
+  
+  .center-circle3 {
+    margin: auto auto;
+  }
+  
+  .bottom-circle3 {
+    margin-top: auto;
+  }
+/* dice 3 end */
+
+/* dice 4 start */
+  .dice4  {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 1%;
+    display:flex;
+    justify-content: space-between;
+    background-color: #f5f0f6;
+  }
+  
+  .circle4{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%; 
+  }
+  
+  .left-circle, .right-circle {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+  } 
+/* dice 4 end */
+  
+/* dice 5 start */
+  .dice5  {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 1%;
+    display:flex;
+    justify-content: space-between;
+    background-color: #f5f0f6;
+  }
+  
+  .circle5{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%; 
+  }
+  
+  .left-circle, .right-circle {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+  
+  .center-circle5 {
+    margin: auto;
+  }
+/* dice 5 end */
+  
+/* dice 6 start */
+  .dice6  {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 1%;
+    display:flex;
+    justify-content: space-between;
+    background-color: #f5f0f6;
+  }
+  
+  .circle6{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%; 
+  }
+  
+  .left-circle, .right-circle {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+/* dice 6 end */
+
+h1 {
+    text-align: center;
+    margin-top: 1.5em;
+}
